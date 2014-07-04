@@ -34,7 +34,7 @@
     
     // manually create & apply a force to launch the penguin
     // manually create & apply a force to launch the penguin
-    CGPoint launchDirection = ccp(1, 0);
+    CGPoint launchDirection = ccp(8000, 0);
     CGPoint force = ccpMult(launchDirection, 8000);
     [penguin.physicsBody applyForce:force];
 }
