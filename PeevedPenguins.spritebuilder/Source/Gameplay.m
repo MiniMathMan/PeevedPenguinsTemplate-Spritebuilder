@@ -13,7 +13,7 @@
     CCNode *_catapultArm;
 }
 // is called when CCB file has completed loading
-/*- (void)didLoadFromCCB {
+- (void)didLoadFromCCB {
     // tell this scene to accept touches
     self.userInteractionEnabled = TRUE;
 }
@@ -36,5 +36,5 @@
     CGPoint launchDirection = ccp(1, 0);
     CGPoint force = ccpMult(launchDirection, 8000);
     [penguin.physicsBody applyForce:force];
-}*/
+}
 @end
