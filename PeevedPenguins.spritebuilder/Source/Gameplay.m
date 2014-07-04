@@ -27,7 +27,7 @@
     // loads the Penguin.ccb we have set up in Spritebuilder
     CCNode* penguin = [CCBReader load:@"Penguin"];
     // position the penguin at the bowl of the catapult
-    CCLOG(_catapultArm.position)
+    CCLOG(_catapultArm.position.x)
     penguin.position = ccpAdd(_catapultArm.position, ccp(160, 50));
     
     // add the penguin to the physicsNode of this scene (because it has physics enabled)
