@@ -504,40 +504,48 @@
 									<key>points</key>
 									<array>
 										<array>
-											<real>0.0</real>
-											<real>0.0</real>
+											<real>15.445343017578125</real>
+											<real>11.941436767578125</real>
 										</array>
 										<array>
-											<real>0.0</real>
-											<real>92</real>
+											<real>2.593780517578125</real>
+											<real>46.277374267578125</real>
 										</array>
 										<array>
-											<real>215</real>
-											<real>92</real>
+											<real>65.558624267578125</real>
+											<real>76.753936767578125</real>
 										</array>
 										<array>
-											<real>215</real>
-											<real>0.0</real>
+											<real>210.19534301757812</real>
+											<real>36.000030517578125</real>
+										</array>
+										<array>
+											<real>213.73831176757812</real>
+											<real>14.367218017578125</real>
 										</array>
 									</array>
 									<key>polygons</key>
 									<array>
 										<array>
 											<array>
-												<real>215</real>
-												<real>0.0</real>
+												<real>213.73831176757812</real>
+												<real>14.367218017578125</real>
 											</array>
 											<array>
-												<real>215</real>
-												<real>92</real>
+												<real>210.19534301757812</real>
+												<real>36.000030517578125</real>
 											</array>
 											<array>
-												<real>0.0</real>
-												<real>92</real>
+												<real>65.558624267578125</real>
+												<real>76.753936767578125</real>
 											</array>
 											<array>
-												<real>0.0</real>
-												<real>0.0</real>
+												<real>2.593780517578125</real>
+												<real>46.277374267578125</real>
+											</array>
+											<array>
+												<real>15.445343017578125</real>
+												<real>11.941436767578125</real>
 											</array>
 										</array>
 									</array>
@@ -615,6 +623,8 @@
 										</array>
 									</dict>
 								</array>
+								<key>selected</key>
+								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
