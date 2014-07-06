@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>30</integer>
+	<integer>31</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -267,6 +267,8 @@
 					<real>100</real>
 				</dict>
 			</array>
+			<key>selected</key>
+			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -562,8 +564,8 @@
 									<key>points</key>
 									<array>
 										<array>
-											<real>0.0</real>
-											<real>0.0</real>
+											<real>-0.253875732421875</real>
+											<real>20.867218017578125</real>
 										</array>
 										<array>
 											<real>0.0</real>
@@ -574,46 +576,24 @@
 											<real>177</real>
 										</array>
 										<array>
-											<real>39.886749267578125</real>
-											<real>105.15631103515625</real>
+											<real>38.273468017578125</real>
+											<real>108.50396728515625</real>
 										</array>
 										<array>
-											<real>19.140655517578125</real>
-											<real>104.89065551757812</real>
-										</array>
-										<array>
-											<real>21.218780517578125</real>
-											<real>1.476593017578125</real>
+											<real>16.601593017578125</real>
+											<real>20.523468017578125</real>
 										</array>
 									</array>
 									<key>polygons</key>
 									<array>
 										<array>
 											<array>
-												<real>0.0</real>
-												<real>177</real>
+												<real>16.601593017578125</real>
+												<real>20.523468017578125</real>
 											</array>
 											<array>
-												<real>0.0</real>
-												<real>0.0</real>
-											</array>
-											<array>
-												<real>21.218780517578125</real>
-												<real>1.476593017578125</real>
-											</array>
-											<array>
-												<real>19.140655517578125</real>
-												<real>104.89065551757812</real>
-											</array>
-										</array>
-										<array>
-											<array>
-												<real>19.140655517578125</real>
-												<real>104.89065551757812</real>
-											</array>
-											<array>
-												<real>39.886749267578125</real>
-												<real>105.15631103515625</real>
+												<real>38.273468017578125</real>
+												<real>108.50396728515625</real>
 											</array>
 											<array>
 												<real>42</real>
@@ -622,6 +602,10 @@
 											<array>
 												<real>0.0</real>
 												<real>177</real>
+											</array>
+											<array>
+												<real>-0.253875732421875</real>
+												<real>20.867218017578125</real>
 											</array>
 										</array>
 									</array>
@@ -1127,8 +1111,84 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
+							</dict>
+							<dict>
+								<key>UUID</key>
+								<integer>30</integer>
+								<key>baseClass</key>
+								<string>CCNode</string>
+								<key>children</key>
+								<array/>
+								<key>customClass</key>
+								<string></string>
+								<key>displayName</key>
+								<string>CCNode</string>
+								<key>memberVarAssignmentName</key>
+								<string>_mouseJointNode</string>
+								<key>memberVarAssignmentType</key>
+								<integer>1</integer>
+								<key>properties</key>
+								<array>
+									<dict>
+										<key>name</key>
+										<string>name</string>
+										<key>type</key>
+										<string>StringSimple</string>
+										<key>value</key>
+										<string></string>
+									</dict>
+									<dict>
+										<key>name</key>
+										<string>position</string>
+										<key>type</key>
+										<string>Position</string>
+										<key>value</key>
+										<array>
+											<real>0.0</real>
+											<real>0.0</real>
+											<integer>0</integer>
+											<integer>0</integer>
+											<integer>0</integer>
+										</array>
+									</dict>
+									<dict>
+										<key>name</key>
+										<string>contentSize</string>
+										<key>type</key>
+										<string>Size</string>
+										<key>value</key>
+										<array>
+											<real>0.0</real>
+											<real>0.0</real>
+											<integer>0</integer>
+											<integer>0</integer>
+										</array>
+									</dict>
+									<dict>
+										<key>name</key>
+										<string>anchorPoint</string>
+										<key>type</key>
+										<string>Point</string>
+										<key>value</key>
+										<array>
+											<real>0.0</real>
+											<real>0.0</real>
+										</array>
+									</dict>
+									<dict>
+										<key>name</key>
+										<string>scale</string>
+										<key>type</key>
+										<string>ScaleLock</string>
+										<key>value</key>
+										<array>
+											<real>1</real>
+											<real>1</real>
+											<false/>
+											<integer>0</integer>
+										</array>
+									</dict>
+								</array>
 							</dict>
 						</array>
 						<key>customClass</key>
