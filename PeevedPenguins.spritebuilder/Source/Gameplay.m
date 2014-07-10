@@ -27,7 +27,7 @@
     _currentPenguin = nil;
     [_contentNode stopAction:_followPenguin];
     
-    CCActionMoveTo *actionMoveTo = [CCActionMoveTo actionWithDuration:5.f position:ccp(0, 0)];
+    CCActionMoveTo *actionMoveTo = [CCActionMoveTo actionWithDuration:1.f position:ccp(0, 0)];
     [_contentNode runAction:actionMoveTo];
 }
 
@@ -35,9 +35,11 @@
 // is called when CCB file has completed loading
 - (void)update:(CCTime)delta
 {
-    static const float MIN_SPEED = 1.f;
+    static const float MIN_SPEED = 5.f;
     // if speed is below minimum speed, assume this attempt is over
-    CCLOG(@"%f",ccpLength(_currentPenguin.physicsBody.velocity));
+    if (_currentPenguin == nil) {
+        return;
+    }
     if (ccpLength(_currentPenguin.physicsBody.velocity) < MIN_SPEED){
         [self nextAttempt];
         return;
