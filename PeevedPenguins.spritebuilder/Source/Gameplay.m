@@ -36,7 +36,6 @@
 // is called when CCB file has completed loading
 - (void)update:(CCTime)delta
 {
-    CCLOG(@"%s",_currentPenguin.launched);
     if (_currentPenguin.launched) {
     static const float MIN_SPEED = 5.f;
     // if speed is below minimum speed, assume this attempt is over
