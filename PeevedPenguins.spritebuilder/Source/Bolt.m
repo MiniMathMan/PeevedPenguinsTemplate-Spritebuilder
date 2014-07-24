@@ -16,7 +16,8 @@
     self.physicsBody.collisionType = @"death";
 }
 
--(void) move:(CGPoint)position  {
+-(void) move{//:(CGPoint)position  {
+    CCLOG(@"dfss");
     /*if (position.x > self.position.x) {
         self.physicsBody.velocity = ccp(35, self.physicsBody.velocity.y);
     } else {

@@ -11,7 +11,9 @@
 
 @interface Bolt : CCSprite
 
--(void) move:(CGPoint)hero;
+-(void) move;//:(CGPoint)hero;
+
+-(void) thing;
 
 
 @end
